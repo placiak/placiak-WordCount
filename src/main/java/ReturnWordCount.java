@@ -5,6 +5,21 @@ public class ReturnWordCount {
      * @return return the amount of words in a string.
      */
     public int count(String in){
-        return 0;
+
+        int counter = 0;
+        char target = ' ';
+
+        for(int i = 0; i < in.length(); i++){
+
+            if(in.charAt(i) == target){
+
+                counter++;
+
+                //why can't I test...
+
+            }
+
+        }
+        return counter + 1;
     }
 }
